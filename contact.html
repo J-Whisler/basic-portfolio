@@ -7,26 +7,40 @@
   <title>Document</title>
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
+
 <body>
   <div class="name" >    
     <h1>Jacob Whisler</h1>
   </div>
-  <nav>
+
+  <nav class="links">
     <a href ="index.html">About Me</a>
     <a href="portfolio.html">Portfolio</a>
     <a herf="contact.html">Contact</a>
    </nav>
-   <div>
-       <h2 class="contact">Contact</h2>
-   </div>
+
    <div class="contact">
+       <h2>Contact</h2>
+   </div>
+
+   <hr>
+
+   <div class="form">
     <label for="name">Name: </label>
-    <input type="text" name="name" id="name">
+    <input type="text" name="name" id="name" value="Name">
+    <br>
     <label for="email">Email: </label>
-    <input type="text" name="email" id="email">
+    <input type="text" name="email" id="email" value="example@gmail.com">
+    <br>
     <label for="message">Message: </label>
-    <textarea id="message" name="message" rows="5" cols="33">
-    <input type="submit" value="submit">
-  </div>
+    <textarea id="message" name="message" rows="5" cols="33"></textarea>
+   
+    <br>
+    
+    <div class="submit">
+      <input type="submit" value="submit">
+    </div>
+  
+</div>
 </body>
 </html>
