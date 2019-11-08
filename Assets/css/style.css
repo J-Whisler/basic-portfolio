@@ -26,6 +26,7 @@
 }
 .links {
     float: right;
+    padding-bottom: 20px;
 }
 .form {
     background-color: white;
@@ -49,7 +50,8 @@
   background-color: #ffffff;  
   border-color: #dddddd;
   width: 960px;
-  background-image: url(Assets\images\dot-grid.png);
-
+  background-image: url("dot-grid.png");
 }
-
+.links:hover {
+    color: red;
+}
