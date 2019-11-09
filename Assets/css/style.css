@@ -50,7 +50,7 @@
   background-color: #ffffff;  
   border-color: #dddddd;
   width: 960px;
-  background-image: url();
+  background-image: url("../images/dot-grid.png");
   margin: 20px 50px 40px 50px;
 }
 .links:hover {
