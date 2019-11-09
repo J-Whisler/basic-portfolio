@@ -62,10 +62,25 @@ footer {
     height: 20px;
     color: white;
     text-align: center;
+    float: bottom;
 }
 
 .images {
-    width: 50px;
+    width: 960px;
     display: flex;
+    float: left;
     
+}
+.indexpic {
+   margin: 15px;
+    float: left;
+    clear: none;
+}
+.container {
+    width: 960px;
+}
+.paragraph {
+    float: left;
+    height: auto;
+    width: 65%
 }
