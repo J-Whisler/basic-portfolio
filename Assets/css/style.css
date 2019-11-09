@@ -66,6 +66,6 @@ footer {
 
 .images {
     width: 50px;
-    display: inline-block;
+    display: flex;
     
 }
