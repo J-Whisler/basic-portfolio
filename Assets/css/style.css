@@ -69,7 +69,7 @@ footer {
 .images {
     width: 960px;
     display: grid;
-    float: left;
+    
     
 }
 .indexpic {
@@ -81,7 +81,6 @@ footer {
     width: 960px;
 }
 .paragraph {
-    float: left;
     height: auto;
     width: 65%
 }
